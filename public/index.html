@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>API Microservice</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h1>URL Shortener Microservice</h1>
+<p>Pass in a URL as parameter and you will receive a response URL with a 4 digit number, which you can use as a shortcode to redirect to the corresponding page.</p>
+<h2>Insert the URL as parameter</h2>
+<p class="grey">
+	https://daa-url-shortener-microservice.glitch.me/http://www.iyengar-yoga-horgen.ch
+</p>
+<h2>Output</h2>
+<p class="grey">
+{ "original_url":"http://www.iyengar-yoga-horgen.ch", "short_url":"https://daa-url-shortener-microservice.glitch.me/????" } 
+</p>
+<h2>Use the shortcut link</h2>
+<p class="grey">
+https://daa-url-shortener-microservice.glitch.me/???
+</p>
+<h2>Will be redirected to</h2>
+<p>
+http://www.iyengar-yoga-horgen.ch 	
+</p>
+</body>
+</html>
